@@ -217,7 +217,7 @@ const UICtrl = (function(){
       // Add ID
       li.id = `item-${item.id}`;
       // Add HTML
-      li.innerHTML = `<strong>${item.name}: </strong> <em>${item.calories} Calories</em>
+      li.innerHTML = `<strong>${item.name}: </strong> <em>${item.calories} калорий</em>
       <a href="#" class="secondary-content">
         <i class="edit-item fa fa-pencil"></i>
       </a>`;
